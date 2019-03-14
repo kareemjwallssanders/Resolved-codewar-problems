@@ -1,66 +1,47 @@
+* {
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  background: white;
 
-
-
- *{
-    box-sizing: border-box;
 }
+
 /* Box Model Hack*/
 
 .clearfix:after {
-    content: ".";
-    display: block;
-    clear: both;
-    visibility: hidden;
-    line-height: 0;
-    height: 0;
-} 
-.wrapperTop{
-    width: 100%;
-    float: left;
-
-}
-.wrapperBtm{
-    width: 100%;
-    float: left;
-
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 
+header{
+  height: 100px;
+  width: 100%;
+  clear: both;
+}
+
+.memoryGame{
+
+  height: 640px;
+  width: 100%;
+  float: left;
+}
+
+topOfgame{
+  border: 2px solid black;
+  height: 220px;
+  width: 100%;
 
 
+}
 
+.btmOfgame{
+  border: 2px solid black;
+  height: 220px;
+  width: 100%;
 
+}
 
-
-  h1{
-    font-size:45px;
-    margin-left:8%;
-    color: #552BD9;
-  }
-
-
-  h4{
-    font-size:25px;
-    margin-left:8%;
-    color: green;
-  }
-
-
-  
-  
-  .card {
-    float: left;
-    margin: 10px;
-    height: 200px;
-    width: 150px;
-    background: green;
-    text-align: center;
-    border-radius: 5px;
-    box-shadow: 10px 10px 10px #ccc;
-  }
-  
-  .card:hover {
-    cursor: pointer;
-    border: 3px solid blue;
-  }
-  
-  

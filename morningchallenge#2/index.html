@@ -3,39 +3,78 @@
 
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Match</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Memory</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
-
 
 <body>
 
-    <h1>Memory Game</h1>
-    <h4>Attempts</h4>
 
-    <!-- <section class = "wrapperTop" >
-    <section class = card >1</section>
-    <section class = card >2</section>
-    <section class = card >3</section>
-    <section class = card >4</section>
-    <section class = card >5</section>
-    </section> -->
+    <header>
+      <h1>Memory Game</h1>
+    </header>
 
-    <section class = "wrapperBtm">
-    <section class = card >6</section>
-    <section class = card >7</section>
-    <section class = card >8</section>
-    <section class = card >9</section>
-    <section class = card >10</section>
+    <section class="memoryGame" class="clearfix:after">
+
+
+      <section class="topOfgame" class="clearfix:after">
+        <div class="gameCard" data-framework="mj">
+          <img class="frontCard" src="img/MJ.jpg" alt="mj" />
+          <img class="backCard" src="img/nba-logo.png" alt="nba" />
+        </div>
+        <div class="gameCard" data-framework="mj">
+          <img class="frontCard" src="img/MJ.jpg" alt="mj" />
+          <img class="backCard" src="img/nba-logo.png" alt="nba" />
+        </div>
+
+        <div class="gameCard" data-framework="bird">
+          <img class="frontCard" src="img/bird.jpg" alt="bird" />
+          <img class="backCard" src="img/nba-logo.png" alt="nba" />
+        </div>
+        <div class="gameCard" data-framework="bird">
+          <img class="frontCard" src="img/bird.jpg" alt="bird" />
+          <img class="backCard" src="img/nba-logo.png" alt="nba" />
+        </div>
+
+        <div class="gameCard" data-framework="drj">
+          <img class="frontCard" src="img/drj.jpg" alt="drj" />
+          <img class="backCard" src="img/nba-logo.png" alt="nba" />
+        </div>
+      </section>
     </section>
-    
 
-    
+    <section class=btmOfgame class="clearfix:after">
+      <div class="gameCard" data-framework="drj">
+        <img class="frontCard" src="img/drj.jpg" alt="drj" />
+        <img class="backCard" src="img/nba-logo.png" alt="nba" />
+      </div>
+
+      <div class="gameCard" data-framework="kareem">
+        <img class="frontCard" src="img/kareem.jpeg" alt="kareem" />
+        <img class="backCard" src="img/nba-logo.png" alt="nba" />
+      </div>
+      <div class="gameCard" data-framework="kareem">
+        <img class="frontCard" src="img/kareem.jpeg" alt="kareem" />
+        <img class="backCard" src="img/nba-logo.png" alt="nba" />
+      </div>
+      </section>
+
+      
+
+      <section>
+        <button type="Submit">Restart</button>
+      </section>
 
 
-    <script src="js/match.js"></script>
-</body>
+
+
+
+
+
+      <script src="js/match.js"></script>
+  </body>
+
 </html>
